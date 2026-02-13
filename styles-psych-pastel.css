@@ -201,3 +201,25 @@ a:hover{ color: rgba(47,111,98,.86) }
   .hero-media img{ filter: saturate(.90) contrast(.97) brightness(1.02); }
   .card, .testimonial, .cta{ border-radius: 18px !important; }
 }
+
+
+.grid-4{
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap:22px;
+  margin-top:34px;
+}
+
+/* Tablet: 2×4 */
+@media (max-width: 980px){
+  .grid-4{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1×8 */
+@media (max-width: 560px){
+  .grid-4{
+    grid-template-columns: 1fr;
+  }
+}
