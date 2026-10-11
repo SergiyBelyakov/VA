@@ -2,3 +2,6 @@
 
 /* Vector icons render consistently without emoji font substitution. */
 .ui-icon{display:inline-block;flex:none;width:22px;height:22px;vertical-align:middle}.help-symbol .ui-icon{width:27px;height:27px}.arrow-icon{width:18px;height:18px}.back-icon{width:18px;height:18px;margin-right:5px}.start-mark .sun-art{display:block;width:460px;height:460px;stroke-width:.55}.hero-photo img{object-position:50% 40%}.about-image img{object-position:50% 43%}@media(max-width:760px){.start-mark .sun-art{width:320px;height:320px}}
+
+/* Expandable information keeps the first view concise. */
+.request-details{margin:18px 0 24px;border-top:1px solid #d9cbbb;padding-top:14px}.request-details summary{cursor:pointer;font-size:1rem;font-weight:600;line-height:1.5;padding:4px 0}.request-details summary:focus-visible{outline:2px solid #855031;outline-offset:5px}.request-details p{font-size:1rem;line-height:1.65;min-height:0!important;margin:14px 0 0}.offer-note p{font-size:1rem;line-height:1.65}.hero-photo img{object-position:50% 36%}
