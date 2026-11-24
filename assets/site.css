@@ -17,3 +17,16 @@
 @media(max-width:1020px){.service-columns{grid-template-columns:1fr}.service-aside{position:static}.service-grid{gap:36px}}
 @media(max-width:760px){.circle-banner{grid-template-columns:1fr}.circle-banner-img{min-height:200px;max-height:260px}.circle-banner-body{padding:24px}.circle-banner-body strong{font-size:1.5rem}.service-grid{display:flex;flex-direction:column}.service-hero{padding:28px 0 48px}.hero-actions .btn.msg{width:calc(33.333% - 7px);padding:12px 8px;font-size:.85rem}.hero-actions .btn.msg .ui-icon{width:18px;height:18px}.timeline{grid-template-columns:1fr;gap:4px 0;padding:18px}.timeline dt{margin-top:10px}.timeline dt:first-child{margin-top:0}.aside-card .btn{font-size:.95rem}}
 @media(max-width:410px){.hero-actions .btn.msg{width:100%}}
+
+.service-photo.circle-portrait {
+  width: min(100%, 19.5rem);
+  justify-self: center;
+}
+.circle-portrait img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+.circle-banner-img img,
+#zhinoche-kolo .offer-img img {
+  object-position: center 82%;
+}
