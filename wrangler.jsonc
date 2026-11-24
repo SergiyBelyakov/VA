@@ -1,0 +1,16 @@
+{
+  "name": "va",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-06",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "valentyna-rokun.com/*", "zone_name": "valentyna-rokun.com" },
+    { "pattern": "www.valentyna-rokun.com/*", "zone_name": "valentyna-rokun.com" }
+  ],
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash"
+  }
+}
